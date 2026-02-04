@@ -567,10 +567,10 @@ nav {
     overflow: hidden;
 }
 
-.video-placeholder {
+.video-placeholder, .video-placeholder2, .video-placeholder3 {
     width: 100%;
     aspect-ratio: 16/9;
-	background-image: url("IMG_3501.jpg");
+	
 	background-size: cover;
     display: flex;
     flex-direction: column;
@@ -581,19 +581,14 @@ nav {
     cursor: pointer;
     transition: background 0.3s ease;
 }
+.video-placeholder {
+	background-image: url("IMG_3501.jpg");
+}
 .video-placeholder2 {
-    width: 100%;
-    aspect-ratio: 16/9;
 	background-image: url("IMG_0078.jpg");
-	background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-muted);
-    gap: 1rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
+}
+.video-placeholder3 {
+	background-image: url("IMG_0103.jpg");
 }
 
 .video-placeholder:hover , .video-placeholder2:hover{
@@ -956,6 +951,7 @@ nav {
                 <div class="container">
                     <h2 class="section-title">Multimedia & Scripts</h2>
                     <div class="media-grid">
+						<!-- Video #1 -->
                         <div class="video-wrapper glass-card">
                             <div class="video-placeholder">
                                 <i class="ph ph-play-circle"></i>
@@ -968,6 +964,7 @@ nav {
 									Digital Cinema Competition.</p>
                             </div>
                         </div>
+						<!-- Video #2 -->
                         <div class="video-wrapper glass-card">
                             <div class="video-placeholder2">
                                 <i class="ph ph-play-circle"></i>
@@ -977,6 +974,19 @@ nav {
                                 <h3><a href="https://youtu.be/-YJOBRxZVyE?si=Z7YFCfvxsFbli59p" class="link-with-icon"><i class="ph ph-github-logo"></i>Dear Mom,</a></h3>
                                 <p>Excerpt of a short script I wrote and directed for a Directing Actors for 
 									Film class, which I thoroughly enjoyed.</p>
+                            </div>
+                        </div>
+						<!-- Video #3 -->
+						<div class="video-wrapper glass-card">
+                            <div class="video-placeholder3">
+                                <i class="ph ph-play-circle"></i>
+                                <span>Cyberbullying PSA</span>
+                            </div>
+                            <div class="video-info">
+								<h3><a href="https://youtu.be/xNjOo8Xi0ek?si=noAVKJyBy0ylwU4v" class="link-with-icon"><i class="ph ph-github-logo"></i>Cyberbullying PSA</a></h3>
+                                <p>A cinematic public service announcement about cyberbullying, 
+									created during a 6-hour long TV Production SkillsUSA Competition. 
+									Very fun, I do quite like how it turned out as well.</p>
                             </div>
                         </div>
                     </div>
