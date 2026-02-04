@@ -25,7 +25,7 @@
         // --- Custom Cursor ---
         const cursor = document.querySelector('.cursor');
         const follower = document.querySelector('.cursor-follower');
-        const links = document.querySelectorAll('a, button, .project-card, .video-placeholder, .video-placeholder2, .script-item');
+        const links = document.querySelectorAll('a, button, .project-card, .video-placeholder, .video-placeholder2, .video-placeholder3, .script-item');
     
         let mouseX = 0, mouseY = 0;
         let posX = 0, posY = 0;
@@ -592,8 +592,8 @@ nav {
 }
 
 .video-placeholder:hover , .video-placeholder2:hover{
-    background: #2a2a2a;
     color: var(--text-main);
+	transform: scale(1.2);
 }
 
 .video-placeholder i {
