@@ -25,7 +25,7 @@
         // --- Custom Cursor ---
         const cursor = document.querySelector('.cursor');
         const follower = document.querySelector('.cursor-follower');
-        const links = document.querySelectorAll('a, button, .project-card, .video-placeholder, .script-item');
+        const links = document.querySelectorAll('a, button, .project-card, .video-placeholder, .video-placeholder2, .script-item');
     
         let mouseX = 0, mouseY = 0;
         let posX = 0, posY = 0;
@@ -570,6 +570,21 @@ nav {
 .video-placeholder {
     width: 100%;
     aspect-ratio: 16/9;
+	background-image: url("IMG_3501.jpg");
+	background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    gap: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.video-placeholder2 {
+    width: 100%;
+    aspect-ratio: 16/9;
+	background-image: url("IMG_0078.jpg");
 	background-size: cover;
     display: flex;
     flex-direction: column;
@@ -581,7 +596,7 @@ nav {
     transition: background 0.3s ease;
 }
 
-.video-placeholder:hover {
+.video-placeholder:hover , .video-placeholder2:hover{
     background: #2a2a2a;
     color: var(--text-main);
 }
@@ -942,7 +957,7 @@ nav {
                     <h2 class="section-title">Multimedia & Scripts</h2>
                     <div class="media-grid">
                         <div class="video-wrapper glass-card">
-                            <div class="video-placeholder" background-image: url('IMG_3501.jpg');>
+                            <div class="video-placeholder">
                                 <i class="ph ph-play-circle"></i>
                                 <span>Streetlight Murders Pt.1</span>
                             </div>
@@ -954,7 +969,7 @@ nav {
                             </div>
                         </div>
                         <div class="video-wrapper glass-card">
-                            <div class="video-placeholder" background-image: url('IMG_0078.jpg');>
+                            <div class="video-placeholder2">
                                 <i class="ph ph-play-circle"></i>
                                 <span>Dear Mom,</span>
                             </div>
