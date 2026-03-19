@@ -393,7 +393,7 @@ background-image: url("MEDIA/IMG_0103.jpg");
 background-image: url("MEDIA/IMG_0407.jpg");
 }
 
-.video-placeholder:hover , .video-placeholder2:hover, .video-placeholder3:hover, video-placeholder4:hover{
+.video-placeholder:hover , .video-placeholder2:hover, .video-placeholder3:hover, .video-placeholder4:hover {
 color: var(--primary);
 transform: scale(1.2);
 }
