@@ -367,35 +367,35 @@ overflow: hidden;
 }
 
 .video-placeholder, .video-placeholder2, .video-placeholder3, .video-placeholder4 {
-width: 100%;
-aspect-ratio: 16/9;
-
-background-size: cover;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color: var(--text-muted);
-gap: 1rem;
-cursor: pointer;
-transition: background 0.3s ease;
+    width: 100%;
+    aspect-ratio: 16/9;
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    gap: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 .video-placeholder {
-background-image: url("MEDIA/IMG_3501.jpg");
+    background-image: url("MEDIA/IMG_3501.jpg");
 }
 .video-placeholder2 {
-background-image: url("MEDIA/IMG_0078.jpg");
+    background-image: url("MEDIA/IMG_0078.jpg");
 }
 .video-placeholder3 {
-background-image: url("MEDIA/IMG_0103.jpg");
+    background-image: url("MEDIA/IMG_0103.jpg");
 }
 .video-placeholder4 {
-background-image: url("MEDIA/IMG_0407.jpg");
+    background-image: url("MEDIA/IMG_0407.jpg");
 }
 
 .video-placeholder:hover , .video-placeholder2:hover, .video-placeholder3:hover, .video-placeholder4:hover {
-color: var(--primary);
-transform: scale(1.2);
+    color: var(--primary);
+    transform: scale(1.2);
 }
 
 .video-placeholder i {
