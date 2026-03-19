@@ -366,6 +366,28 @@ padding: 0;
 overflow: hidden;
 }
 
+
+.video-placeholder {
+    width: 100%;
+    aspect-ratio: 16/9;
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    gap: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.video-placeholder:hover {
+    color: var(--primary);
+    transform: scale(1.2);
+}
+
+/*
 .video-placeholder, .video-placeholder2, .video-placeholder3, .video-placeholder4 {
     width: 100%;
     aspect-ratio: 16/9;
@@ -397,6 +419,7 @@ overflow: hidden;
     color: var(--primary);
     transform: scale(1.2);
 }
+*/
 
 .video-placeholder i {
 font-size: 3rem;
