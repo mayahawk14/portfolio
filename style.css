@@ -618,6 +618,22 @@ transform: translateY(0);
 
 
 
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -648,9 +664,9 @@ transform: translateY(0);
 
 /* The dot/bullet/indicator container */
 .dot-container {
-  text-align: center;
-  padding: 20px;
-  background: #ddd;
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
 }
 
 /* The dots/bullets/indicators */
