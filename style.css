@@ -633,6 +633,11 @@ body {font-family: Verdana, sans-serif; margin:0}
   text-align: center;
 }
 
+.mySlides img {
+    width: 400px;
+    height: auto;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
