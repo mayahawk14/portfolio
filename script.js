@@ -231,25 +231,25 @@ function showSlides(n) {
 var slideIndex2 = 1;
 showSlides(slideIndex2);
 
-function plusSlides2(n) {
-  showSlides2(slideIndex2 += n);
+function plusSlides2(e) {
+  showSlides2(slideIndex2 += e);
 }
 
-function currentSlide2(n) {
-  showSlides2(slideIndex2 = n);
+function currentSlide2(e) {
+  showSlides2(slideIndex2 = e);
 }
 
-function showSlides2(n) {
-  var i;
+function showSlides2(e) {
+  var j;
   var slides2 = document.getElementsByClassName("mySlides2");
   var dots2 = document.getElementsByClassName("dot2");
-  if (n > slides2.length) {slideIndex2 = 1}    
-  if (n < 1) {slideIndex2 = slides2.length}
-  for (i = 0; i < slides2.length; i++) {
-      slides2[i].style.display = "none";  
+  if (e > slides2.length) {slideIndex2 = 1}    
+  if (e < 1) {slideIndex2 = slides2.length}
+  for (j = 0; j < slides2.length; j++) {
+      slides2[j].style.display = "none";  
   }
-  for (i = 0; i < dots2.length; i++) {
-      dots2[i].className = dots2[i].className.replace(" active", "");
+  for (j = 0; j < dots2.length; j++) {
+      dots2[j].className = dots2[j].className.replace(" active", "");
   }
   slides2[slideIndex2-1].style.display = "block";  
   dots2[slideIndex2-1].className += " active";
