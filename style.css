@@ -101,7 +101,7 @@ list-style: none;
 }
 
 
-.slide-container, slide-container2 {
+.slide-container, .slide-container2 {
   position: relative;
   width: 50%;
 }
