@@ -141,10 +141,10 @@ list-style: none;
   white-space: nowrap;
 }
 
-.slide-right-overlay {
+.slide-overlay2 {
   position: absolute;
   bottom: 0;
-  left: 100%;
+  left: 0;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
@@ -153,9 +153,8 @@ list-style: none;
   transition: .5s ease;
 }
 
-.slide-right-container:hover .slide-right-overlay {
+.slide-container2:hover .overlay {
   width: 100%;
-  left: 0;
 }
 
 
